@@ -9,6 +9,8 @@ registries:
   github-chameleon:
     type: maven-repository
     url: https://maven.pkg.github.com/dereisele/chameleon
+    username: ""
+    password: ""
 
 updates:
   - package-ecosystem: "maven" # See documentation for possible values
