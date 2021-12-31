@@ -48,6 +48,11 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
+        <repository>
+            <id>github-chameleon</id>
+            <url>https://maven.pkg.github.com/dereisele/chameleon</url>
+        </repository>
+
     </repositories>
 
     <pluginRepositories>

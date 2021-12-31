@@ -10,10 +10,11 @@
         <groupId>org.airsonic.player</groupId>
         <artifactId>airsonic</artifactId>
         <version>11.0.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <properties>
-        <chameleon.version>2.0.0-RELEASE</chameleon.version>
+        <chameleon.version>2.1.0-SNAPSHOT</chameleon.version>
         <tomcat.server.scope>provided</tomcat.server.scope>
         <!-- For fixing import/export due to https://github.com/liquibase/liquibase/issues/1598 -->
         <liquibase.version>4.6.2</liquibase.version>
